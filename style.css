@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #0A0C1B;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:hsl(0, 0%, 100%);
+}
+
+.insight{
+    height: 300px;
+    width: 400px;
+    background-color: #1C1938;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    letter-spacing: .8px;
+}
+.insight p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    letter-spacing: .8px;
+}
+
+span{
+    color:#9C64C3;
+}
+
+ .picture img{
+    height: 295px;
+    width: 400px;
+    filter: hsl(277, 64%, 61%);
+}
+.text{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+.text p {
+    margin-bottom: -10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.text2{
+    display:flex;
+    justify-content: space-between;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.text2 p{
+    font-size: 9px;
+}
+footer{
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+}
+@media (max-width: 1024px) {
+    .insight{
+        height: 450px;
+        width: 400px;
+        font-size: 25px;
+    }
+    .insight p{
+        font-size: 15px;
+    }
+    .picture img{
+        height: 440px;
+        width: 400px;
+    }
+    .text2 p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 769px) {
+    .flex-container {
+      flex-direction: column-reverse;
+    }
+    .picture img{
+        height: 275px;
+        
+    }
+}
+@media (max-width: 540px) {
+    .insight{
+        font-size: 15px;
+        height: 300px;
+        width: 300px;
+    }
+    .picture img{
+        height: 275px;
+        width:300px;
+    }
+    .insight p{
+        font-size: 12px;
+    }
+    .text p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 416px) {
+    .flex-container{
+    min-height: 100vh;
+    
+    }
+    .insight{
+        font-size: 15px;
+        height: 300px;
+        width: 300px;
+    }
+    .picture img{
+        height: 295px;
+        width: 300px;
+    }
+    
+    .insight p{
+        font-size: 12px;
+    }
+    .text p{
+        font-size: 13px;
+    }
+
+}
+@media (max-width: 376px) {
+    .flex-container{
+    min-height: 100vh;
+    
+    }
+    .insight{
+        height: 200px;
+        width: 300px;
+    }
+    .picture img{
+        height: 295px;
+        width: 300px;
+    }
+    .insight{
+     font-size: 10px;
+    letter-spacing: .8px;
+    }
+    .insight p{
+        font-size: 9px;
+    }
+    .text p{
+        font-size: 13px;
+    }
+
+}
