@@ -44,6 +44,7 @@ span{
     height: 295px;
     width: 400px;
     mix-blend-mode:multiply;
+    display:block;
 }
 .text{
     display:flex;
@@ -146,6 +147,7 @@ footer{
     .picture img{
         height: 295px;
         width: 300px;
+        
     }
     
     .insight p{
